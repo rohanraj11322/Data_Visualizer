@@ -94,7 +94,6 @@ if uploaded_file is not None:
             # Summary
             st.subheader("Summary:")
             st.write(df.head())
-    st.write("Copyright © 2024 Rohan Kumar")
+st.write("Copyright © 2024 Rohan Kumar")
 
-if __name__ == '__main__':
-    main()
+
